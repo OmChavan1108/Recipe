@@ -1,3 +1,13 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# Builds
+/build
+/dist
+
 # Logs
 logs
 *.log
@@ -7,9 +17,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
 *.local
 
 # Editor directories and files
@@ -22,3 +29,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Frontend
+/frontend/my-app/node_modules
+/frontend/my-app/dist
+
+#backend
+/backend/node_modules
+/backend/dist
